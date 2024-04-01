@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label text="Báo Cáo Cuối Ngày" textFill="#ef0000">
+                     <HBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="177.0" HBox.hgrow="ALWAYS">
+               <opaqueInsets>
+                  <Insets right="20.0" />
+               </opaqueInsets>
+               <children>
+                  <Label text="Nhân viên báo cáo :">
+                     <HBox.margin>
+                        <Insets right="30.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="tennguoibaocao" text="Label">
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="150.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Tổng tiền ">
+               <VBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Thanh toán chuyển khoản">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Thanh toán tiền mặt">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Tiền chi">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Tiền mặt còn lại">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Thời gian báo cáo">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="90.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField promptText="Tổng tiền thu vào">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField layoutX="10.0" layoutY="10.0" promptText="Chuyển khoản">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField layoutX="10.0" layoutY="36.0" promptText="Tiền mặt">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField layoutX="10.0" layoutY="61.0" promptText="Tiền chi">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField layoutX="10.0" layoutY="87.0" promptText="Quỹ">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="Ngày/Tháng/Năm ">
+               <VBox.margin>
+                  <Insets left="20.0" right="150.0" top="12.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" text="Báo cáo" textFill="#bd1313fb">
+               <VBox.margin>
+                  <Insets left="100.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="548.0" prefWidth="769.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.home">
+   <children>
+      <BorderPane prefHeight="580.0" prefWidth="803.0">
+         <left>
+            <VBox prefHeight="580.0" prefWidth="169.0" style="-fx-background-color: #333A73;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Trang chủ" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhtrangchu" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding></Button>
+                  <Button fx:id="btnthucdon" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#Openbtnthucdon" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Thực đơn" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhthucdon" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Menu.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnban" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="52.0" mnemonicParsing="false" onAction="#Openbtnban" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Bàn" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhban" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Table.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnnhanvien" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="95.0" mnemonicParsing="false" onAction="#Openbtnnhanvien" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Nhân viên" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhnhanvien" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Staff.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnhoadon" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="137.0" mnemonicParsing="false" onAction="#Openbtnhoadon" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Hóa đơn" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhhoadon" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Cheque.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btnbaocao" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="222.0" mnemonicParsing="false" onAction="#Openbtnbaocao" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Báo cáo" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhbaocao" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Graph%20Report_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btngiohang" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="264.0" mnemonicParsing="false" onAction="#Openbtngiohang" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Giỏ hàng" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhgiohang" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Basket.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Button fx:id="btndangxuat" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="10.0" layoutY="180.0" mnemonicParsing="false" onAction="#setBtndangxuat" prefHeight="42.0" prefWidth="170.0" style="-fx-background-color: #333A73;" text="Đăng xuất" textFill="#50c4ed">
+                     <graphic>
+                        <ImageView fx:id="anhdangxuat" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </Button>
+                  <Label fx:id="hienthitennguoidung" onDragDetected="#setHienthitennguoidung" text="Label" textFill="#50c4ed">
+                     <VBox.margin>
+                        <Insets left="30.0" top="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="time" text="Time" textFill="#50c4ed">
+                     <VBox.margin>
+                        <Insets left="30.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="72.0" prefWidth="803.0" style="-fx-background-color: #FBA834;" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets left="36.0" />
+               </padding>
+               <children>
+                  <Label text="Shang Chi">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="56.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+         </top>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <top>
+                  <Pane prefHeight="225.0" prefWidth="634.0" style="-fx-background-color: #D9D9D9;" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="anhsale" fitHeight="222.0" fitWidth="395.0" layoutX="128.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Sale.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </top>
+               <left>
+                  <AnchorPane prefHeight="282.0" prefWidth="289.0" style="-fx-background-color: #FFFFF;" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="mixao" fitHeight="158.0" fitWidth="259.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Mixaogion.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="205.0" layoutY="204.0" mnemonicParsing="false" text="Đặt ngay" />
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="282.0" prefWidth="341.0" style="-fx-background-color: #FFE6C8;" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fx:id="comchien" fitHeight="150.0" fitWidth="325.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../icons/Comchienhaisan.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="266.0" layoutY="200.0" mnemonicParsing="false" text="Đặt ngay" />
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
